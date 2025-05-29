@@ -1,0 +1,20 @@
+body{
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0%;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    height: 100vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 6rem;
+    font-weight: bold;
+    color: black;
+    backdrop-filter:blur(3px);
+}
